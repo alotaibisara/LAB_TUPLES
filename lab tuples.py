@@ -13,9 +13,10 @@ list1 = [4,5,6]
 new_tuple2= tuple(list1)
 var1,var2,var3 = numbers
 var4,var5 ,var6 = letters
-e_tuple = enumerate(letters[1])
-print(tuple(e_tuple))
-count_numbers= numbers.count("2",)
+e_tuple = letters.index("b")
+print(e_tuple)
+count_numbers= numbers.count("2")
 print (count_numbers)
-new_tuple3 = enumerate (new_tuple)
-print (tuple(new_tuple3))
+new_tuple3 = new_tuple
+for index , value in enumerate(new_tuple3):
+ print (index,value)
